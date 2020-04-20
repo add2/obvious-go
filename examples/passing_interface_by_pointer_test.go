@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// The argument passed to the function as an interface can be either a value or a pointer
+
 func Example_passing_interface_by_pointer() {
 	var x some
 	var y *some

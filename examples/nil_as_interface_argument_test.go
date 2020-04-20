@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// A nil pointer passed to a function as an interface does not pass nil verification
+
 func Example_nil_as_interface_argument() {
 	var x *some // nil
 
